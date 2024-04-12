@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactTailwind/static/css/main.8f7f0bf8.css",
-    "main.js": "/ReactTailwind/static/js/main.297f91d3.js",
+    "main.css": "/ReactTailwind/static/css/main.80dc85d5.css",
+    "main.js": "/ReactTailwind/static/js/main.dd2a04a1.js",
     "static/media/list-3.jpg": "/ReactTailwind/static/media/list-3.fc0a9c53dcdc15a78b1e.jpg",
     "static/media/list-4.jpg": "/ReactTailwind/static/media/list-4.8ffa8bb7758a6353434a.jpg",
     "static/media/list-1.jpg": "/ReactTailwind/static/media/list-1.ad1eb9537f1e9344c76d.jpg",
@@ -37,11 +37,11 @@
     "static/media/roundimage.svg": "/ReactTailwind/static/media/roundimage.ae09b74d1d0d9c8e99b21555ec508221.svg",
     "static/media/fb.svg": "/ReactTailwind/static/media/fb.e052fb1ce8c1b8c855afc5558bd685dc.svg",
     "static/media/menu.svg": "/ReactTailwind/static/media/menu.2bfb9f4a26b5a63cfd49962941f2988b.svg",
-    "main.8f7f0bf8.css.map": "/ReactTailwind/static/css/main.8f7f0bf8.css.map",
-    "main.297f91d3.js.map": "/ReactTailwind/static/js/main.297f91d3.js.map"
+    "main.80dc85d5.css.map": "/ReactTailwind/static/css/main.80dc85d5.css.map",
+    "main.dd2a04a1.js.map": "/ReactTailwind/static/js/main.dd2a04a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f7f0bf8.css",
-    "static/js/main.297f91d3.js"
+    "static/css/main.80dc85d5.css",
+    "static/js/main.dd2a04a1.js"
   ]
 }
