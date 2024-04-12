@@ -3,7 +3,7 @@ import Progress from "../../Assets/progressround.svg";
 import Customer from "../../Assets/customer.png";
 const Testi = () => {
     return (
-        <div className="bg-gradient-to-b from-[#F0EFFB] from-0% to-[rgba(255,255,255,0.00] to-100% shadow-[0px_4px_200px_0px_rgba(232, 249, 247, 0.20)] px-[24px] lg:flex lg:flex-col lg:items-center lg:px-0 lg:pb-[100px] pt-[64px]">
+        <div className="bg-gradient-to-b from-[#F0EFFB] from-0% to-[rgba(255,255,255,0.00] to-100% shadow-[0px_4px_200px_0px_rgba(232, 249, 247, 0.20)] px-[24px] lg:flex lg:flex-col lg:items-center lg:px-0 lg:pb-[100px] py-[64px]">
             <div className="">
                 <h2 className="text-[#000929] text-[32px] font-bold leading-[125%]tracking-[-0.32px] text-center">
                     Testimonials

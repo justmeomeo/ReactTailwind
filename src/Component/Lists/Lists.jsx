@@ -8,7 +8,7 @@ import Bath from "../../Assets/bath.svg";
 import Square from "../../Assets/square.svg";
 import List6 from "../../Assets/content-pc-2.jpg";
 import List7 from "../../Assets/list-7.jpg";
-import "../../App.css";
+
 const Lists = () => {
     return (
         <div className="bg-gradient-to-b from-[#FFFFFF]-to-[#F0EFFB]shadow-[0px_4px_200px_0px_rgba(232,249,247,0.20)] py-[48px] lg:py-[80px] lg:px-[160px]">

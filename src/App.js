@@ -7,7 +7,7 @@ import Lists from "./Component/Lists/Lists";
 import Testi from "./Component/Testi/Testi";
 import Form from "./Component/Form/Form";
 import Footer from "./Component/Footer/Footer";
-import Active from "./Component/Lists/List";
+
 function App() {
     return (
         <div className="max-w-[1550px] select-none">
@@ -16,7 +16,6 @@ function App() {
             <Content />
             <Benefits />
             <Lists />
-            <Active />
             <Testi />
             <Form />
             <Footer />
