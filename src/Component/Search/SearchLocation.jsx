@@ -4,6 +4,32 @@ import ContentPcSecond from "../../Assets/content-pc-2.jpg";
 import Bed from "../../Assets/bed.svg";
 import Bath from "../../Assets/bath.svg";
 import Square from "../../Assets/square.svg";
+const Data = [
+    {
+        image: ContentPcFirst,
+        bed: Bed,
+        bath: Bath,
+        square: Square,
+        totalBed: "4",
+        totalBath: "2",
+        totalSquare: "6x7.5 m²",
+        price: "$2,700",
+        name: "Beverly Springfield",
+        address: "2821 Lake Sevilla, Palm Harbor, TX",
+    },
+    {
+        image: ContentPcSecond,
+        bed: Bed,
+        bath: Bath,
+        square: Square,
+        totalBed: "4",
+        totalBath: "2",
+        totalSquare: "6x8 m²",
+        price: "$1,600",
+        name: "Tarpon Bay",
+        address: "Palm Harbor, TX",
+    },
+];
 const Search = () => {
     return (
         <div className="bg-[#f7f7fd] py-[48px] px-[24px] lg:px-[160px] lg:py-[72px]">
@@ -73,114 +99,64 @@ const Search = () => {
                         </div>
                     </div>
                 </div>
-                <div className="hidden lg:block">
-                    <div className="h-[416px] w-[300px] border-[1.5px] border-solid border-[#F0EFFB] rounded-[8px] overflow-hidden">
-                        <img
-                            src={ContentPcFirst}
-                            alt=""
-                        />
-                        <div className="py-[30px] px-[24px] bg-[#FFFFFF]">
-                            <div className="flex items-center justify-between">
-                                <div className="">
-                                    <h2 className="text-[#7065F0] text-[24px] font-extrabold leading-[150%] tracking-[-1px]">
-                                        $2,700
-                                        <span className="text-[#000929] text-[16px] leading-[150%] font-normal opacity-50">
-                                            /month
-                                        </span>
+                {Data.map((item, index) => {
+                    return (
+                        <div className="hidden lg:block">
+                            <div className="h-[416px] w-[300px] border-[1.5px] border-solid border-[#F0EFFB] rounded-[8px] overflow-hidden">
+                                <img
+                                    src={item.image}
+                                    alt=""
+                                />
+                                <div className="py-[30px] px-[24px] bg-[#FFFFFF]">
+                                    <div className="flex items-center justify-between">
+                                        <div className="">
+                                            <h2 className="text-[#7065F0] text-[24px] font-extrabold leading-[150%] tracking-[-1px]">
+                                                {item.price}
+                                                <span className="text-[#000929] text-[16px] leading-[150%] font-normal opacity-50">
+                                                    /month
+                                                </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <h2 className="text-[#000929] text-[24px] font-bold leading-[150%] tracking-[-0.24px] mt-[4px]">
+                                        {item.name}
                                     </h2>
-                                </div>
-                            </div>
-                            <h2 className="text-[#000929] text-[24px] font-bold leading-[150%] tracking-[-0.24px] mt-[4px]">
-                                Beverly Springfield
-                            </h2>
-                            <span className="text-[#000929] text-[16px] leading-[150%] font-normal mt-[8px] opacity-50">
-                                2821 Lake Sevilla, Palm Harbor, TX
-                            </span>
-                            <div className="border-solid border-[#F0EFFB] mt-[16px] border-t-[2px]">
-                                <div className="pt-[16px] flex items-center">
-                                    <img
-                                        src={Bed}
-                                        alt=""
-                                        className="object-cover w-[25px] h-[25px]"
-                                    />
-                                    <span className="text-[#000929] text-[14px]font-normal leading-[140%] opacity-70 ml-[8px]">
-                                        4
+                                    <span className="text-[#000929] text-[16px] leading-[150%] font-normal mt-[8px] opacity-50">
+                                        {item.address}
                                     </span>
-                                    <img
-                                        src={Bath}
-                                        alt=""
-                                        className="object-cover w-[25px] h-[25px] ml-[16px]"
-                                    />
-                                    <span className="text-[#000929] text-[14px]font-normal leading-[140%] opacity-70 ml-[8px]">
-                                        2
-                                    </span>
-                                    <img
-                                        src={Square}
-                                        alt=""
-                                        className="object-cover w-[25px] h-[25px] ml-[16px]"
-                                    />
-                                    <span className="text-[#000929] text-[14px]font-normal leading-[140%] opacity-70 ml-[8px]">
-                                        6x7.5 m²
-                                    </span>
+                                    <div className="border-solid border-[#F0EFFB] mt-[16px] border-t-[2px]">
+                                        <div className="pt-[16px] flex items-center">
+                                            <img
+                                                src={item.bed}
+                                                alt=""
+                                                className="object-cover w-[25px] h-[25px]"
+                                            />
+                                            <span className="text-[#000929] text-[14px]font-normal leading-[140%] opacity-70 ml-[8px]">
+                                                {item.totalBed}
+                                            </span>
+                                            <img
+                                                src={item.bath}
+                                                alt=""
+                                                className="object-cover w-[25px] h-[25px] ml-[16px]"
+                                            />
+                                            <span className="text-[#000929] text-[14px]font-normal leading-[140%] opacity-70 ml-[8px]">
+                                                {item.totalBath}
+                                            </span>
+                                            <img
+                                                src={item.square}
+                                                alt=""
+                                                className="object-cover w-[25px] h-[25px] ml-[16px]"
+                                            />
+                                            <span className="text-[#000929] text-[14px]font-normal leading-[140%] opacity-70 ml-[8px]">
+                                                {item.totalSquare}
+                                            </span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div className="hidden lg:block">
-                    <div className="h-[416px] w-[300px] border-[1.5px] border-solid border-[#F0EFFB] rounded-[8px] overflow-hidden ">
-                        <img
-                            src={ContentPcSecond}
-                            alt=""
-                        />
-                        <div className="py-[30px] px-[24px] bg-[#FFFFFF]">
-                            <div className="flex items-center justify-between">
-                                <div className="">
-                                    <h2 className="text-[#7065F0] text-[24px] font-extrabold leading-[150%] tracking-[-1px]">
-                                        $1,600
-                                        <span className="text-[#000929] text-[16px] leading-[150%] font-normal opacity-50">
-                                            /month
-                                        </span>
-                                    </h2>
-                                </div>
-                            </div>
-                            <h2 className="text-[#000929] text-[24px] font-bold leading-[150%] tracking-[-0.24px] mt-[4px]">
-                                Tarpon Bay
-                            </h2>
-                            <span className="text-[#000929] text-[16px] leading-[150%] font-normal mt-[8px] opacity-50">
-                                Palm Harbor, TX
-                            </span>
-                            <div className="border-solid border-[#F0EFFB] mt-[16px] border-t-[2px]">
-                                <div className="pt-[16px] flex items-center">
-                                    <img
-                                        src={Bed}
-                                        alt=""
-                                        className="object-cover w-[25px] h-[25px]"
-                                    />
-                                    <span className="text-[#000929] text-[14px]font-normal leading-[140%] opacity-70 ml-[8px]">
-                                        4
-                                    </span>
-                                    <img
-                                        src={Bath}
-                                        alt=""
-                                        className="object-cover w-[25px] h-[25px] ml-[16px]"
-                                    />
-                                    <span className="text-[#000929] text-[14px]font-normal leading-[140%] opacity-70 ml-[8px]">
-                                        2
-                                    </span>
-                                    <img
-                                        src={Square}
-                                        alt=""
-                                        className="object-cover w-[25px] h-[25px] ml-[16px]"
-                                    />
-                                    <span className="text-[#000929] text-[14px]font-normal leading-[140%] opacity-70 ml-[8px]">
-                                        6x8 m²
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    );
+                })}
             </div>
         </div>
     );

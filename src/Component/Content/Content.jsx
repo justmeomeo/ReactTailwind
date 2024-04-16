@@ -2,6 +2,7 @@ import House from "../../Assets/content.png";
 import Video from "../../Assets/video.svg";
 import Home from "../../Assets/home.svg";
 import ArrowRight from "../../Assets/arrow-right.svg";
+import React from "react";
 const Content = () => {
     return (
         <div className=" py-[48px] px-[24px] bg-[#FFFFFF] lg:py-[100px] lg:px-[160px] lg:flex lg:items-center lg:justify-between">
