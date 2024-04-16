@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactTailwind/static/css/main.80dc85d5.css",
-    "main.js": "/ReactTailwind/static/js/main.dd2a04a1.js",
+    "main.css": "/ReactTailwind/static/css/main.2ce750eb.css",
+    "main.js": "/ReactTailwind/static/js/main.81ffd1e9.js",
     "static/media/list-3.jpg": "/ReactTailwind/static/media/list-3.fc0a9c53dcdc15a78b1e.jpg",
     "static/media/list-4.jpg": "/ReactTailwind/static/media/list-4.8ffa8bb7758a6353434a.jpg",
     "static/media/list-1.jpg": "/ReactTailwind/static/media/list-1.ad1eb9537f1e9344c76d.jpg",
@@ -27,8 +27,8 @@
     "static/media/icon-child-rate.svg": "/ReactTailwind/static/media/icon-child-rate.f34fb1d60f124f425b39565cca6f50fb.svg",
     "static/media/heart.svg": "/ReactTailwind/static/media/heart.1eebed0555b24a26569a2793d5d6a974.svg",
     "static/media/home.svg": "/ReactTailwind/static/media/home.1665ada297318b3df41f00d623df6bc1.svg",
-    "index.html": "/ReactTailwind/index.html",
     "static/media/video.svg": "/ReactTailwind/static/media/video.f7d6bef40826717b1ccc9dc3047dcd2b.svg",
+    "index.html": "/ReactTailwind/index.html",
     "static/media/search.svg": "/ReactTailwind/static/media/search.81034b4797b4761b5d55f34dc53f45f4.svg",
     "static/media/icon-child-sell.svg": "/ReactTailwind/static/media/icon-child-sell.c445e02414b739421aa9640a54d54629.svg",
     "static/media/icon-check.svg": "/ReactTailwind/static/media/icon-check.49c441a0bdec6a88039d774663ac0fe3.svg",
@@ -37,11 +37,11 @@
     "static/media/roundimage.svg": "/ReactTailwind/static/media/roundimage.ae09b74d1d0d9c8e99b21555ec508221.svg",
     "static/media/fb.svg": "/ReactTailwind/static/media/fb.e052fb1ce8c1b8c855afc5558bd685dc.svg",
     "static/media/menu.svg": "/ReactTailwind/static/media/menu.2bfb9f4a26b5a63cfd49962941f2988b.svg",
-    "main.80dc85d5.css.map": "/ReactTailwind/static/css/main.80dc85d5.css.map",
-    "main.dd2a04a1.js.map": "/ReactTailwind/static/js/main.dd2a04a1.js.map"
+    "main.2ce750eb.css.map": "/ReactTailwind/static/css/main.2ce750eb.css.map",
+    "main.81ffd1e9.js.map": "/ReactTailwind/static/js/main.81ffd1e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.80dc85d5.css",
-    "static/js/main.dd2a04a1.js"
+    "static/css/main.2ce750eb.css",
+    "static/js/main.81ffd1e9.js"
   ]
 }
